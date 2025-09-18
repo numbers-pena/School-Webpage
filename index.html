@@ -50,6 +50,7 @@
       .section {
         background-color: #F8F3F3;
         padding: 10px;
+        border-radius: 10px;
       }
       .mission {
         border: 2px solid #368036;
@@ -58,6 +59,7 @@
         width: 40%;
         margin: 0 auto;
         text-align: center;
+        padding: 10px;
       }
       a:link {
         color: #20B2AA;
@@ -95,31 +97,44 @@
         background-color: transparent;
         text-decoration: underline;
       }
-      
+      footer {
+        background: #dbf4ff;
+        padding: 15px;
+        color: #1E90FF;
+        margin-top: 30px;
+        text-align: center;
+      }
     </style>
-    
   </head>
-  
   <body>
     <h1>Sunnydale School</h1>
-    <div class="mission">
-    <h2 id="mission">Mission Statement</h2>
-    <p>“To serve as a dynamic and user-friendly website that<br> connects students with the information, resources, and <br>opportunities they need to excel both inside and outside the <br>classroom.”</p>
-    </div>
-    <fieldset id='fieldset1'><legend><h2 id="upcoming-events">Upcoming Events:</h2></legend>
-    <ul>
-      <li class='outdoor' title="Event-Type: Outdoor">Arts Exhibition - <span style="color: red; font-weight: bold;">June 5</span></li>
-      <li class='indoor' title="Event-Type: Indoor">Science Fair - <span style="color: red; font-weight: bold;">June 10</span></li>
-      <li class='outdoor' title="Event-Type: Outdoor">Sports Day - <span style="color: red; font-weight: bold;">June 20</span></li>
-    </ul>
-    </fieldset>
-    <fieldset id='fieldset2'>
-    <h2 id="contact">Contact Us</h2>
-    <div class="section">
-      <p>Email: <a href='mailto: info@sunnydaleschol.edu' title='Click to copy email'>sunnydale@gmail.com</a></p>
-      <p>Phone: <a href='tel:+1234567890' title='Click to copy phone number'>+63 0983-123-5512</a></p>
-      <!-- Imagine clicking here shows a message: 'Thanks for reaching out!' -->
-      </div>
+    <section>
+      <div class="mission">
+        <h2 id="mission">Mission Statement</h2>
+        <p>“To serve as a dynamic and user-friendly website that connects students with the information, resources, and opportunities they need to excel both inside and outside the classroom.”</p>
+        </div>
+      </section>
+    <section>
+      <fieldset id='fieldset1'><legend><h2 id="upcoming-events">Upcoming Events:</h2></legend>
+      <ul>
+        <li class='outdoor' title="Event-Type: Outdoor">Arts Exhibition - <span style="color: red; font-weight: bold;">June 5</span></li>
+        <li class='indoor' title="Event-Type: Indoor">Science Fair - <span style="color: red; font-weight: bold;">June 10</span></li>
+        <li class='outdoor' title="Event-Type: Outdoor">Sports Day - <span style="color: red; font-weight: bold;">June 20</span></li>
+      </ul>
       </fieldset>
+    </section>
+    <section>
+      <fieldset id='fieldset2'>
+        <h2 id="contact">Contact Us</h2>
+        <div class="section">
+          <p>Email: <a href='mailto: info@sunnydaleschol.edu' title='Click to copy email'>sunnydale@gmail.com</a></p>
+          <p>Phone: <a href='tel:+1234567890' title='Click to copy phone number'>+63 0983-123-5512</a></p>
+          <!-- Imagine clicking here shows a message: 'Thanks for reaching out!' -->
+          </div>
+        </fieldset>
+      </section>
+      <footer>
+        <p>&copy; Sunnydale School A.Y 2025-2026 | All Rights Reserved</p>
+      </footer>
   </body>
 </html>
